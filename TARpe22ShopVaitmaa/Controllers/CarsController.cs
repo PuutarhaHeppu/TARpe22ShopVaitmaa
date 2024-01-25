@@ -63,9 +63,8 @@ namespace TARpe22ShopVaitmaa.Controllers
                 BuiltDate = vm.BuiltDate,
                 LastMaintenance = vm.LastMaintenance,
                 MaintenanceCount = vm.MaintenanceCount,
-                FullTripsCount = vm.FullTripsCount,
-                MaidenLaunch = vm.MaidenLaunch,
-                Manufacturer = vm.Manufacturer,
+                km = vm.km,
+                Mark = vm.Mark,
                 CreatedAt = vm.CreatedAt,
                 ModifiedAt = vm.ModifiedAt,
                 Files = vm.Files,
@@ -121,9 +120,8 @@ namespace TARpe22ShopVaitmaa.Controllers
             vm.BuiltDate = car.BuiltDate;
             vm.LastMaintenance = car.LastMaintenance;
             vm.MaintenanceCount = car.MaintenanceCount;
-            vm.FullTripsCount = car.FullTripsCount;
-            vm.MaidenLaunch = car.MaidenLaunch;
-            vm.Manufacturer = car.Manufacturer;
+            vm.km = car.km;
+            vm.Mark = car.Mark;
             vm.CreatedAt = car.CreatedAt;
             vm.ModifiedAt = car.ModifiedAt;
             vm.Image.AddRange(photos);
@@ -150,9 +148,8 @@ namespace TARpe22ShopVaitmaa.Controllers
                 BuiltDate = vm.BuiltDate,
                 LastMaintenance = vm.LastMaintenance,
                 MaintenanceCount = vm.MaintenanceCount,
-                FullTripsCount = vm.FullTripsCount,
-                MaidenLaunch = vm.MaidenLaunch,
-                Manufacturer = vm.Manufacturer,
+                km = vm.km,
+                Mark = vm.Mark,
                 CreatedAt = vm.CreatedAt,
                 ModifiedAt = DateTime.Now,
                 Files = vm.Files,
@@ -208,9 +205,8 @@ namespace TARpe22ShopVaitmaa.Controllers
             vm.BuiltDate = car.BuiltDate;
             vm.LastMaintenance = car.LastMaintenance;
             vm.MaintenanceCount = car.MaintenanceCount;
-            vm.FullTripsCount = car.FullTripsCount;
-            vm.MaidenLaunch = car.MaidenLaunch;
-            vm.Manufacturer = car.Manufacturer;
+            vm.km = car.km;
+            vm.Mark = car.Mark;
             vm.CreatedAt = car.CreatedAt;
             vm.ModifiedAt = car.ModifiedAt;
             vm.Image.AddRange(photos);
@@ -255,9 +251,8 @@ namespace TARpe22ShopVaitmaa.Controllers
             vm.BuiltDate = car.BuiltDate;
             vm.LastMaintenance = car.LastMaintenance;
             vm.MaintenanceCount = car.MaintenanceCount;
-            vm.FullTripsCount = car.FullTripsCount;
-            vm.MaidenLaunch = car.MaidenLaunch;
-            vm.Manufacturer = car.Manufacturer;
+            vm.km = car.km;
+            vm.Mark = car.Mark;
             vm.CreatedAt = car.CreatedAt;
             vm.ModifiedAt = car.ModifiedAt;
             vm.Image.AddRange(photos);

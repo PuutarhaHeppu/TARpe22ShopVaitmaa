@@ -42,9 +42,8 @@ namespace TARpe22ShopVaitmaa.ApplicationServices.Services
             car.BuiltDate = dto.BuiltDate;
             car.LastMaintenance = dto.LastMaintenance;
             car.MaintenanceCount = dto.MaintenanceCount;
-            car.FullTripsCount = dto.FullTripsCount;
-            car.MaidenLaunch = dto.MaidenLaunch;
-            car.Manufacturer = dto.Manufacturer;
+            car.km = dto.km;
+            car.Mark = dto.Mark;
             car.CreatedAt = dto.CreatedAt;
             car.ModifiedAt = dto.ModifiedAt;
 
@@ -76,9 +75,8 @@ namespace TARpe22ShopVaitmaa.ApplicationServices.Services
                 BuiltDate = dto.BuiltDate,
                 LastMaintenance = dto.LastMaintenance,
                 MaintenanceCount = dto.MaintenanceCount,
-                FullTripsCount = dto.FullTripsCount,
-                MaidenLaunch = dto.MaidenLaunch,
-                Manufacturer = dto.Manufacturer,
+                km = dto.km,
+                Mark = dto.Mark,
                 CreatedAt = dto.CreatedAt,
                 ModifiedAt = dto.ModifiedAt,
             };

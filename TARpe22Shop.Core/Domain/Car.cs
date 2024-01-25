@@ -25,9 +25,8 @@ namespace TARpe22ShopVaitmaa.Core.Domain
         public DateTime BuiltDate { get; set; } // when as the ship built at
         public DateTime LastMaintenance { get; set; } //when was the ship last maintained at
         public int MaintenanceCount { get; set; } //how many maintenance sessions has been performed on the ship
-        public int FullTripsCount { get; set; } //how many voyages the ship has gone through
-        public DateTime MaidenLaunch { get; set; } //when did the ship take its first voyage
-        public string Manufacturer { get; set; } //who manufactured the car
+        public int km { get; set; } //how many voyages the ship has gone through
+        public string Mark { get; set; } //who manufactured the car
 
         //database info only, do not display to user
 
